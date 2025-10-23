@@ -1,0 +1,68 @@
+/* Footer.css */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.25);
+    /* Increased opacity for more glass effect */
+    backdrop-filter: blur(15px);
+    /* Increased blur for stronger glassmorphism */
+    -webkit-backdrop-filter: blur(15px);
+    /* Safari support */
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    /* Slightly more visible border */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    /* Added shadow for depth */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    /* Center the text and icons */
+    align-items: center;
+    gap: 10px;
+    /* Short distance between text and icons */
+    width: 100%;
+    max-width: 1200px;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 14px;
+    color: hwb(0 82% 12% / 0.813);
+    font-family: Arial, sans-serif;
+}
+
+.icon-container {
+    display: flex;
+    gap: 10px;
+    /* Gap between icons */
+}
+
+.icon-link.linkedin:hover {
+    /* background-color: #007bff; */
+    /* Blue background for LinkedIn on hover */
+    color: #fff;
+    /* Icon color */
+}
+
+.icon-link.github:hover {
+    /* background-color: black; */
+    /* Black background for GitHub on hover */
+    color: #fff;
+    /* Icon color */
+}
+
+.icon {
+    font-size: 25px;
+    /* Smaller icon size to match text */
+    color: inherit;
+    /* Inherit color from parent */
+}
