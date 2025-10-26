@@ -34,11 +34,6 @@ A sleek and powerful web application built with React (frontend) and Node.js (ba
 
 - **Additional Tools:** REST APIs, npm
 ---
-### 🔗 Live Demo
-
-> 👉 Try it here: [Resume Builder Live](https://resume-builldnetlify.app/)
-
----
 ### ⚙️ Getting Started
 
 1. Clone this repository
