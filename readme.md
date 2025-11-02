@@ -40,11 +40,14 @@ A sleek and powerful web application built with React (frontend) and Node.js (ba
 
 2. Install dependencies with npm install
 
-```Vs Code terminal
+```
     npm install
 ```
 
 3. Run the development servers (frontend and backend)
+```
+    Port number = 5001
+```
 
 --- 
 ### 🎯 Purpose
