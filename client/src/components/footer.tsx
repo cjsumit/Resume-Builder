@@ -1,7 +1,7 @@
 // Footer.jsx
 import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa'; // Using react-icons/fa for icons
-import './Footer.css'; // Import the CSS file
+import './footer.css'; // Import the CSS file
 
 const Footer = () => {
   return (
